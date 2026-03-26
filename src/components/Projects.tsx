@@ -16,6 +16,14 @@ const projects = [
     github: "https://github.com/umerbappi/dental-voice-agent",
   },
   {
+    title: "AI Lead Management Automation",
+    tag: "Automation",
+    description:
+      "Automated lead management pipeline using n8n that captures Typeform submissions, qualifies leads as Hot/Warm/Cold via GPT-4o, logs to Google Sheets, sends Slack alerts, and auto-emails high-value prospects.",
+    tech: ["n8n", "OpenAI", "Typeform", "Google Sheets", "Slack", "Gmail"],
+    github: "#",
+  },
+  {
     title: "LyricGen",
     tag: "AI / Music",
     description:
