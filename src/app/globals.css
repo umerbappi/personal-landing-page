@@ -1,26 +1,73 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: #09090b;
+  --color-foreground: #fafafa;
+  --color-muted: #a1a1aa;
+  --color-accent: #6d28d9;
+  --color-accent-light: #8b5cf6;
+  --color-card: #18181b;
+  --color-card-hover: #27272a;
+  --color-border: #27272a;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: white;
+}
+
+/* Subtle gradient background */
+.gradient-bg {
+  background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(109, 40, 217, 0.15), transparent);
+}
+
+/* Glow effect for hero */
+.glow {
+  box-shadow: 0 0 60px rgba(109, 40, 217, 0.15);
+}
+
+/* Animated gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #8b5cf6, #6d28d9, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Section fade-in */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-fade-up {
+  animation: fade-up 0.6s ease-out forwards;
+}
+
+/* Skill tag hover */
+.skill-tag {
+  transition: all 0.2s ease;
+}
+.skill-tag:hover {
+  background: var(--color-accent);
+  color: white;
+  transform: translateY(-2px);
 }
