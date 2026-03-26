@@ -21,7 +21,7 @@ export default function Contact() {
             Say Hello
           </a>
           <a
-            href="https://linkedin.com/in/muhammad-umer-bappi"
+            href="https://www.linkedin.com/in/muhammad-umer-bappi-725058293/"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full border border-border px-8 py-3 text-sm font-medium text-muted transition-all hover:border-accent hover:text-foreground"

@@ -18,7 +18,7 @@ export default function Footer() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com/in/muhammad-umer-bappi"
+            href="https://www.linkedin.com/in/muhammad-umer-bappi-725058293/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted transition-colors hover:text-foreground"
