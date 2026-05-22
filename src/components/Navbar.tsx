@@ -2,18 +2,26 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const navLinks = [
-  { href: "#about", label: "About" },
-  { href: "#experience", label: "Experience" },
-  { href: "#projects", label: "Projects" },
-  { href: "#skills", label: "Skills" },
+  { hash: "#about", label: "About" },
+  { hash: "#experience", label: "Experience" },
+  { hash: "#projects", label: "Projects" },
+  { hash: "#skills", label: "Skills" },
   { href: "/blog", label: "Blog" },
-  { href: "#contact", label: "Contact" },
+  { hash: "#contact", label: "Contact" },
 ];
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+
+  const resolveHref = (link: { href?: string; hash?: string }) => {
+    if (link.href) return link.href;
+    return isHome ? link.hash! : `/${link.hash}`;
+  };
 
   return (
     <nav className="fixed top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md">
@@ -25,9 +33,9 @@ export default function Navbar() {
         {/* Desktop */}
         <ul className="hidden gap-8 md:flex">
           {navLinks.map((link) => (
-            <li key={link.href}>
+            <li key={link.label}>
               <Link
-                href={link.href}
+                href={resolveHref(link)}
                 className="text-sm text-muted transition-colors hover:text-foreground"
               >
                 {link.label}
@@ -59,9 +67,9 @@ export default function Navbar() {
         <div className="border-t border-border md:hidden">
           <ul className="flex flex-col gap-4 px-6 py-4">
             {navLinks.map((link) => (
-              <li key={link.href}>
+              <li key={link.label}>
                 <Link
-                  href={link.href}
+                  href={resolveHref(link)}
                   className="text-sm text-muted transition-colors hover:text-foreground"
                   onClick={() => setMobileOpen(false)}
                 >
