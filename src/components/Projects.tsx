@@ -1,10 +1,10 @@
 const projects = [
   {
-    title: "LLMs & Factuality in Urdu NLP",
+    title: "U-CoVe — Hallucination Mitigation for Urdu LLMs",
     tag: "Final Year Project",
     description:
-      "Built a novel multi-agent LLM framework achieving a 35% reduction in hallucinations in Urdu NLP, using PEFT fine-tuning, RAG, and Agentic architectures. Research paper submitted to international conferences.",
-    tech: ["PyTorch", "Hugging Face", "LoRA", "RAG", "LangChain"],
+      "Multi-agent verification framework that cuts hallucination rates in Urdu LLMs (Alif 1.0, Lughaat) by 35% relative. Externalises verification to a fine-tuned mBERT classifier and an mT5 extractive QA agent. Also released HaluUQA — the first Urdu hallucination benchmark (10k expert-validated QA pairs). Paper submitted to LREC 2026.",
+    tech: ["PyTorch", "Hugging Face", "mBERT", "mT5", "LoRA"],
     github: "#",
   },
   {

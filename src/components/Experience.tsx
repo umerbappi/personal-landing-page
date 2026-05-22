@@ -1,5 +1,16 @@
 const experiences = [
   {
+    role: "Junior GHL Associate",
+    company: "Inteliqo",
+    location: "Lahore, Pakistan",
+    period: "Apr 2026 — Present",
+    bullets: [
+      "Design and build automated client workflows on the GoHighLevel (GHL) platform, integrating CRMs, webhooks, and third-party APIs to streamline lead capture, customer communications, and operational pipelines",
+      "Translate client business requirements into technical workflow specifications, architecting conditional logic, multi-step automations, and API integrations across SaaS tools",
+      "Debug, optimise, and ship production automations end-to-end, applying software engineering practices such as version control, modular design, and systematic testing to ensure reliable client delivery",
+    ],
+  },
+  {
     role: "ML/AI Intern",
     company: "Revotic AI",
     location: "Remote",

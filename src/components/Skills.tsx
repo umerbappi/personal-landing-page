@@ -1,7 +1,33 @@
 const skillGroups = [
   {
     category: "Languages & Frameworks",
-    skills: ["Java", "Python", "C++", "React", "Node.js", "TypeScript"],
+    skills: [
+      "Python",
+      "Java",
+      "C++",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Node.js",
+      "FastAPI",
+    ],
+  },
+  {
+    category: "Web & Frontend",
+    skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Tailwind"],
+  },
+  {
+    category: "CRM & Automation",
+    skills: [
+      "GoHighLevel (GHL)",
+      "CRM Integrations",
+      "n8n",
+      "Zapier",
+      "Make",
+      "Webhooks",
+      "Workflow Automation",
+      "API Integrations",
+    ],
   },
   {
     category: "ML / DL",
@@ -22,21 +48,33 @@ const skillGroups = [
       "Prompt Engineering",
       "RAG",
       "Agentic Architectures",
+      "Text Generation",
       "LangChain",
       "FAISS",
     ],
   },
   {
+    category: "Evaluation & Data",
+    skills: [
+      "BERTScore",
+      "Exact Match",
+      "Data Augmentation",
+      "Pandas",
+      "NumPy",
+      "JSON / JSONL / CSV",
+    ],
+  },
+  {
     category: "DevOps & Cloud",
-    skills: ["Docker", "AWS", "GCP", "CI/CD", "AWS Lambda"],
+    skills: ["Docker", "GCP", "CI/CD"],
   },
   {
     category: "Databases",
     skills: ["PostgreSQL", "MySQL"],
   },
   {
-    category: "Tools",
-    skills: ["Git", "Jira", "Confluence", "REST APIs", "WebRTC"],
+    category: "Tools & Methodologies",
+    skills: ["Git", "Confluence", "REST APIs", "Claude Code"],
   },
 ];
 

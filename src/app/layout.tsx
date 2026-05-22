@@ -15,13 +15,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Muhammad Umer Bappi — Computer Science Graduate",
+  title: "Muhammad Umer Bappi — AI Engineer & GHL Specialist",
   description:
-    "Personal portfolio of Muhammad Umer Bappi. Computer Science graduate specializing in Machine Learning, NLP, and full-stack development.",
+    "Personal portfolio of Muhammad Umer Bappi. AI Engineer specializing in Machine Learning, NLP, and GoHighLevel CRM automation.",
   keywords: [
     "Muhammad Umer Bappi",
+    "AI Engineer",
     "ML Engineer",
     "NLP",
+    "GoHighLevel",
+    "GHL Specialist",
+    "CRM Automation",
+    "n8n",
     "Computer Science",
     "Portfolio",
   ],

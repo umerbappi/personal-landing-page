@@ -24,6 +24,13 @@ export default function About() {
               LLM hallucination reduction in low-resource languages.
             </p>
             <p>
+              At <span className="text-foreground font-medium">Inteliqo</span>, I work as a{" "}
+              <span className="text-foreground font-medium">GoHighLevel &amp; CRM specialist</span> —
+              architecting automated client workflows, integrating webhooks and
+              third-party APIs, and shipping production automations across n8n,
+              Zapier, and Make.
+            </p>
+            <p>
               Beyond code, I&apos;m a session lead guitarist and music producer —
               creativity drives everything I do, whether it&apos;s crafting an
               AI pipeline or composing original music.
@@ -47,7 +54,7 @@ export default function About() {
               <ul className="space-y-2 text-sm text-muted">
                 <li className="flex items-start gap-2">
                   <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-light" />
-                  Best Poster Award — COMSPEX FCC, 2025
+                  Best Project Award — COMSPEX FCC, 2025
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-light" />

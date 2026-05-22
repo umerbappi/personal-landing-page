@@ -9,8 +9,9 @@ export default function Contact() {
           Let&apos;s Connect
         </h3>
         <p className="mb-10 text-muted">
-          I&apos;m currently looking for new opportunities. Whether you have a
-          question or just want to say hi, my inbox is always open.
+          Open to collaborations on AI/ML, automation, and CRM projects.
+          Whether you have a question, a workflow to automate, or just want
+          to say hi — my inbox is always open.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4">

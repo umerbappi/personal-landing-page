@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="gradient-bg relative flex min-h-screen items-center justify-center px-6 pt-20">
       <div className="mx-auto max-w-3xl text-center">
         <p className="mb-4 text-sm font-medium uppercase tracking-widest text-accent-light">
-          CS Graduate &middot; Researcher &middot; Musician
+          AI Engineer &middot; GHL &amp; CRM Specialist &middot; Researcher
         </p>
         <h1 className="mb-6 text-5xl font-bold leading-tight tracking-tight sm:text-7xl">
           Muhammad Umer
@@ -11,9 +11,10 @@ export default function Hero() {
           <span className="gradient-text">Bappi</span>
         </h1>
         <p className="mx-auto mb-10 max-w-xl text-lg leading-relaxed text-muted">
-          Computer Science graduate specializing in Machine Learning and NLP.
-          I build end-to-end AI systems that deliver measurable results — from
-          research to production.
+          Computer Science graduate working at the intersection of applied AI
+          and automation. I fine-tune LLMs, ship RAG &amp; multi-agent systems,
+          and architect end-to-end CRM workflows on GoHighLevel that turn
+          business requirements into reliable production pipelines.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <a
@@ -29,7 +30,7 @@ export default function Hero() {
             Get in Touch
           </a>
           <a
-            href="/Muhammad Umer Resume.pdf"
+            href="/Muhammad Umer Bappi - AI Engineer.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full border border-border px-8 py-3 text-sm font-medium text-muted transition-all hover:border-accent hover:text-foreground"
